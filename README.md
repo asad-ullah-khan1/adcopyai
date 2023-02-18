@@ -1,38 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Adprose
 
-## Getting Started
+Adprose is a web application built with Next.js and React, designed to showcase the power of OpenAI's language models. It allows users to generate unique and creative copy for a variety of use cases, from social media posts to product descriptions.
 
-First, run the development server:
+## Installation
 
-```bash
+To install Adprose, clone the repository and run the following command:
+
+npm install
+
+
+
+This will install all of the necessary dependencies listed in the `package.json` file.
+
+## Usage
+
+To start the development server, run:
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+This will start the application on `http://localhost:3000`. You can make changes to the code and see the changes reflected in real time.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+To build the application for production, run:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+npm run build
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+This will create a production-ready build of the application in the `build` folder.
 
-To learn more about Next.js, take a look at the following resources:
+To start the production server, run:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+npm run start
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+This will start the application on `http://localhost:3000`.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Dependencies
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- @next/font: 13.1.6
+- next: 13.1.6
+- openai: 3.1.0
+- react: 18.2.0
+- react-dom: 18.2.0
+
+## Dev Dependencies
+
+- autoprefixer: 10.4.13
+- postcss: 8.4.21
+- tailwindcss: 3.2.7
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for more information.
+
+
